@@ -1,7 +1,7 @@
 .section_1{
     width: 100% !important; 
     height: 604px;
-    background-image: url("./src/assets/section bg.png");
+    background-image: url("/public/hero.png");
     background-position: center;
     background-size: cover; 
 }
