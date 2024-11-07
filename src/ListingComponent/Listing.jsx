@@ -8,7 +8,7 @@ import listingimg2 from '../assets/Group 14.png'
 import listingimg3 from '../assets/Group 13.png'
 import listingimg4 from '../assets/image 162.png'
 import listingimg5 from '../assets/image 178.png'
-import listingvlogo from '../assets/Frame 31.png'
+import listingvlogo from '../assets/frame 31.png'
 import listingvectorlogo from '../assets/Vector.png'
 import listingvuesaxlogo from '../assets/Vuesax.png'
 
