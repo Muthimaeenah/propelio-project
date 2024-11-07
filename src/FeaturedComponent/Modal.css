@@ -1,0 +1,6 @@
+.modal{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: fit-content;
+    border-radius: 16px;
+}

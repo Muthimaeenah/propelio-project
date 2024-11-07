@@ -1,0 +1,94 @@
+.section_1{
+    width: 100% !important; 
+    height: 604px;
+    background-image: url("./src/assets/section bg.png");
+    background-position: center;
+    background-size: cover; 
+}
+.hero_section{
+    display: grid;
+    place-content: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color:#000000; 
+    opacity: 75%;
+}
+.hero{
+    width: 50rem;
+    text-align: center;
+}
+.hero_section_title{
+    font-size: 2.8rem;
+    font-family: "Chonburi", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.orange{
+    color:#FF7900 ;
+}
+.empower{
+    padding-top: 1rem;
+    font-family: Mulish;
+    font-weight: 600;
+    line-height: 1.6rem;
+    margin-bottom: 3rem;
+}
+.hero_subheading{
+    display: grid;
+    grid-template-columns:10% 50% 40%;
+    width: 80%;
+    opacity: 80%;
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 4rem;
+    border-radius: 15rem;
+    background-color: #09887b;
+}
+.hero_subheading input{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+.hero_subheading input::placeholder{
+    color: white;
+    font-size: 1.5rem;
+}
+.searchIcon{
+    margin-bottom: .1rem;
+    padding-right: .8rem;
+    font-size: 2rem;
+}
+.search{
+    background-color: #FF7900;
+    width: 70%;
+    padding:.5rem 1.5rem;
+    border-radius: 1.5rem;
+    margin-left: 4rem;
+    margin-top: -.5rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.search:hover{
+    background-color: #ce7e38;
+    font-weight: bold;
+    width: 80%;
+}
+@media (max-width: 425px){
+    .section_1{
+        width: 100% !important;
+        height: 550px; 
+    }
+    .hero{
+        width: 100%;
+    }
+    .hero_section_title{
+        font-size: 2.3rem;
+    }
+    .empower{
+        width: 100%;
+        padding-inline: 1rem;
+        font-size: 14px;
+        padding-top: 2rem;
+    }   
+}

@@ -1,0 +1,72 @@
+.section_7{
+    display: grid;
+    background-color: #F4FFFE;
+    padding-top: 2rem;
+}
+.section_7 h2{
+    font-size: 2.5rem;
+    font-family: "Chonburi", serif;
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    color: #333333;
+}
+.accordion {
+    width: 85%;
+   /*  max-width: 1152px; */
+    margin: 3rem auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.accordion-item {
+    border-top: 1px solid #ccc;
+}
+.accordion-item:first-child {
+    border-top: none;
+}
+.accordion-header {
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #009688;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Mulish;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+.accordion-content {
+    /* display: none; */
+    padding: 1.2rem;
+    border-top: 1px solid #ccc;
+    background-color: white;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: start;
+    color: #292D32;
+}
+.accordion-content h4{
+    color: #009688;
+    font-weight: 700;
+    font-family: Mulish;
+    font-size: 24px;
+} 
+.accordion-content p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Mulish;
+}
+.accordion-header.active {
+    background-color: white;
+}
+.icon{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #F9F9F9;
+    font-size: 1rem;
+}

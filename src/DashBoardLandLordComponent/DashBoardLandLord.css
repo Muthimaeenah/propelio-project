@@ -1,0 +1,261 @@
+.dashBoardMain {
+    width: 96%;
+    height: 100%;
+    /* background: #5f5fe0; */
+}
+
+.main-top {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: #d8d8ef; */
+    padding-left: 1.8rem;
+}
+
+.token-div {
+    width: 48%;
+    height: 65%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: #009688;
+}
+
+.number-div {
+    width: 48%;
+    height: 100%;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2rem;
+    color: white;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background: #002396; */
+}
+
+.number-div h1 {
+
+    font-size: 38px;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* background: #002396; */
+}
+
+.add-token-div {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.4rem;
+    /* border-radius: 16px; */
+    /* background: #244a46; */
+}
+
+.token-circle-div {
+    width: 67%;
+    height: 40%;
+    border-radius: 50px;
+    color: #0d655c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 13px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    background: #d8fbf8;
+}
+
+.total-div {
+    width: 48%;
+    height: 65%;
+    display: flex;
+    border-radius: 16px;
+    background: #ffe7d1;
+}
+
+.sale-div {
+    width: 48%;
+    height: 100%;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2rem;
+    color: rgb(52, 52, 52);
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background: #002396; */
+}
+
+.sale-div h1 {
+
+    font-size: 38px;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* background: #002396; */
+}
+
+.sale-token-div {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2rem;
+    /* border-radius: 16px; */
+    /* background: #244a46; */
+}
+
+.sale-circle-div {
+    width: 33%;
+    height: 50%;
+    border-radius: 10px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 13px;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    background: #ffffff;
+}
+
+.main-bottom {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background: #535363; */
+    padding-left: 1.8rem;
+}
+
+.sales-analytics-div {
+    width: 65%;
+    height: max-content;
+    /* background: #c9d2c2; */
+    border-radius: 15px;
+
+}
+
+.chart-div {
+    width: 100%;
+    height: 42vh;
+    background: #ffffff;
+    border-radius: 15px;
+    padding-inline: 1.5rem;
+
+}
+
+.recent-transaction-div {
+    width: 100%;
+    height: max-content;
+    margin-top: 2rem;
+    background: #ffffff;
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5px;
+
+}
+.recent-transaction-div ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+.recent-transaction-div ul li{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: #3f3f3f;
+    font-size: 15px;
+
+}
+
+.order-id-res-div {
+    width: 95%;
+    height: 55vh;
+    background: #c1d4ed;
+    border-radius: 15px;
+
+}
+
+.numberOfProperty-div {
+    width: 30%;
+    height: max-content;
+    /* background: #e5ecb3; */
+    border-radius: 15px;
+}
+
+.property-visit {
+    width: 100%;
+    height: 37vh;
+    background: #ffffff;
+    border-radius: 15px;
+}
+
+.recently-added-property {
+    width: 100%;
+    height: 47vh;
+    background: #ffffff;
+    margin-top: 1rem;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+}
+
+.recently-added-property p {
+    font-size: 14px;
+    font-weight: 540;
+    padding-top: 10px;
+}
+
+.recently-added-property article {
+    width: 100%;
+    height: 60%;
+    background: #ffffff;
+    border-radius: 20px;
+
+}
+
+.recently-added-property aside {
+    width: 100%;
+    display: flex;
+    /* background-color: #ffe7d1; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+
+}
+
+.recently-added-property aside p {
+    width: 100%;
+    font-size: 11px;
+    padding: 0;
+    padding-left: 8px;
+
+}
+
+.recently-added-property article img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    margin-top: 10px;
+
+}

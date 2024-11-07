@@ -1,0 +1,103 @@
+
+.intro{
+    display: grid;
+    place-content: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+.intro h2{
+    font-family: Chonburi;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+.green{
+    color: #009688;
+}
+.subheading{
+    width: 80%;
+    /* height: 64px; */
+    margin: 0 auto;
+    font-family: Mulish;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 32px;
+    
+}
+.listing{
+    margin: 3rem 5rem;
+    padding: 2rem;
+    
+}
+.listing h2{
+   padding: 1rem 0;
+   font-family: Chonburi;
+   font-size: 1.5rem;
+   font-weight: 300;
+}
+.listingproject{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.listingbox{
+    width: 28rem;
+    height: 30rem;
+    display: grid;
+    border-radius: 10px;
+    grid-template-rows: 70% 30%;
+    gap: 10px;
+    line-height: 1.5rem;
+    box-shadow: 0px 0px 31px 0px #00000014;
+}
+.list-img{
+    border-radius: 10px;
+    padding: .5rem ;
+}
+.list-img img{
+    width: 100%;
+}
+.listing_subheading{
+    text-align: start;
+    padding: 0 .5rem;
+   margin-top: 1rem;
+   line-height: 25px;
+}
+.listing_subheading h4{
+    font-family: Mulish;
+    font-weight: 700; 
+    font-size: 1.5rem; 
+}
+.location{
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 500;  
+}
+.investment{
+    font-family: Figtree;
+    font-size: .8rem;
+    font-weight: 500;
+}
+.unit{
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 500;
+}
+.list-details{
+    display: flex;
+    justify-content: space-between;
+    padding-top: .8rem;
+}
+.sold{
+    color: red;
+}
+.list-details a{
+    color: #FF7900;
+    padding-right: 1rem;
+}
+.list-details a:hover{
+    color: #009688;
+}
+.Citadel{
+    font-size: 1.2rem;
+}

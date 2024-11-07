@@ -1,0 +1,16 @@
+.section_2{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    max-width: 300%;
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.carousel-image{
+    width: 100%;
+    height: 600px;
+}

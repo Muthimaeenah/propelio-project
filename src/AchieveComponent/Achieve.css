@@ -1,0 +1,73 @@
+.section_3{
+    width: 100%; 
+    height: 559px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 34px;
+    padding: 5rem 4rem;
+    background-color: #F4FFFE;    
+}
+.section_3A{
+    width: 100%;
+    height: 375px;
+}
+.section_3A h2{
+    font-size: 2.5rem;
+    font-family: "Chonburi", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #333333;
+    padding-bottom: 1.5rem;
+}
+.green{
+    color: #009688;
+}
+.section_3A p{
+    line-height: 32px;
+    font-family: Mulish;
+    font-weight: 600;
+    padding-bottom: 1.7rem;
+}
+.section_3A button{
+    background-color: #009688;
+    padding: .8rem 1.5rem;
+    border-radius: 1.5rem;
+    border: none;
+}
+.section_3A button:hover{
+    background-color: #FF7900;
+    border: 2px solid #FF7900;
+    font-weight: bold;
+}
+.section_3A button a{
+    text-decoration: none;
+    color: white;
+}
+.section_3B{
+    width: 80%;
+    height: 380px;
+    margin-right: 2rem;
+    position: relative;
+}
+.section_3B hr{
+    height: 10rem;
+    background-color: #FF7900;
+    border: none;
+    width: 3rem;
+    opacity: 50%;
+    position: absolute;
+    top: -21%;
+    left: 377px;
+    
+}
+.section_3B img{
+    border-radius: 2rem;
+    box-shadow: 6px 6px 0 rgb(228, 223, 223),
+                12px 12px 0 #FF7900,
+                inset 10px 10px 0 rgb(228, 223, 223),
+                inset 11px 11px 0 hsl(28, 98%, 50%);
+}
+.exploreIcon{
+    font-size: 1.3rem;
+    padding-top: .5rem;
+}

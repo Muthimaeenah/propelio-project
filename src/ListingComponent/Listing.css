@@ -1,0 +1,114 @@
+.intro{
+    text-align: center;
+    margin-top: 4rem;
+}
+.intro h2{
+    font-family: Chonburi;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+.intro-box{
+    width: 40rem;
+    display:flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    opacity: 80%;
+    padding: 1rem 1.5rem;
+    border-radius: 15rem;
+    background-color: #09887b;
+}
+.intro-box input{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+.intro-box input:focus{
+    border: none;
+    outline: none;
+}
+.intro-box input::placeholder, .searchbtn{
+    color: white;
+}
+.searchbtn{
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.listing{
+    margin-inline: 2rem;
+    /* padding: 1rem; */
+}
+.listing h2{
+   font-family: Chonburi;
+   font-size: 1.5rem;
+   font-weight: 300;
+}
+.listing-project{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-columns: repeat(auto-fit, minmax(350px, auto)); */
+    gap: 20px;
+}
+.listing_box{
+    width: 100%;
+    height: 24rem;
+    display: grid;
+    border-radius: 10px;
+    grid-template-rows: 65% 35%;
+    gap: 10px;
+    box-shadow: 0px 0px 31px 0px #00000014;
+}
+.list-img{
+    border-radius: 10px;
+    padding: .5rem ;
+}
+.list-img img{
+    width: 100%;
+}
+.listing_subheading{
+    text-align: start;
+    padding: 0 .5rem;
+   margin-top: .5rem;
+   position: relative;
+}
+.vlogo{
+    position: absolute;
+    top:-130% ;
+    left: 45%;
+    cursor: pointer;
+}
+.listing_subheading h4{
+    font-family: Mulish;
+    font-weight: 700; 
+    font-size: 1rem;  
+    padding-top: 1rem;
+}
+.list-details{
+    display: flex;
+    justify-content: space-between;
+    padding-top: -.8rem;
+}
+.list-details a{
+    color: #FF7900;
+    padding-right: 1rem;
+}
+.list-details a:hover{
+    color: #009688;
+}
+.vector{
+    width: 25px;
+    height: 13px;
+    margin-top: .5rem;
+}
+.details{
+    display: flex;
+    justify-content: space-between; 
+}
+.details a{
+    color: #FF7900;
+    padding-left: 8rem;
+    padding-top: .5rem;
+}
+.details a:hover{
+    color: #009688;
+}

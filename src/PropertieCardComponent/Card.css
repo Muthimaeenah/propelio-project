@@ -1,0 +1,59 @@
+.card-maain {
+    width: 31%;
+    height: auto;
+    background: #ffffff;
+    margin-top: 1rem;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    padding-bottom: 1.5rem;
+}
+.card-added-property {
+    width: 100%;
+    height: 45vh;
+    /* background: #705454; */
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-added-property article {
+    width: 100%;
+    height: 79%;
+    background: #ffffff;
+    border-radius: 10px;
+
+}
+
+.card-added-property aside {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    /* background-color: #ffe7d1; */
+ 
+}
+
+.card-added-property aside p {
+    width: 100%;
+    font-size: 11px;
+    font-weight: 400;
+    padding-left: 8px;
+    /* padding-top: 5px; */
+
+}
+
+.card-added-property p {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(42, 42, 42);
+}
+
+
+.card-added-property article img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+
+}
