@@ -9,7 +9,7 @@ import 'swiper/css';
 
 // import other things
 import { BsGeoAlt } from "react-icons/bs";
-import slidervicon from '../assets/Frame 31.png';
+import slidervicon from '../assets/frame 31.png';
 import sliderimg1 from '../assets/section4a.png';
 import sliderimg2 from '../assets/section4b.png';
 import sliderimg3 from '../assets/section4c.png';
