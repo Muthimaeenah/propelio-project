@@ -5,7 +5,9 @@
 } 
 .section4_heading{
   display: grid;
-  place-content: center;
+  /* place-content: center; */
+  margin-inline: auto;
+  width: 80%;
   text-align: center;
   padding-top: 3rem;
 } 
@@ -26,8 +28,8 @@
   width: 90%;
   height: 400px;
   margin-top: 1.5rem;
-  padding:0 2rem;
-  grid-template-columns: repeat(4,30%);
+  /* padding:0 2rem; */
+  /* grid-template-columns: repeat(4,30%); */
 }
 .Project{
   width: 20rem;
@@ -49,6 +51,8 @@
   height: 100%;
 }
 .video-logo{
+  width: 48px;
+  height: 48px;
   position: absolute;
   top: 30%;
   left: 40%;
@@ -69,16 +73,28 @@
 .project_subheading p{
   padding-top: .5rem;
   font-weight: 500;
+  color: #878787;
+}
+.product_details{
+  display: flex;
+  justify-content: space-between; 
+  padding-top: .5rem; 
 }
 .vector{
   width: 25px;
   height: 13px;
   margin-top: .5rem;
 }
-.details{
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 1rem; 
+.product_details p{
+  margin-left: -7rem;
+}
+.detailslink{
+  color: #FF7900;
+  padding-top: 10px;
+  font-size: 9px;
+} 
+.detailslink:hover{
+  color: #009688;
 }
 .seebtn{
   display: grid;
@@ -104,4 +120,10 @@
   font-size: 22px;
   padding-top: .2rem; 
   font-weight: bold;
+}
+@media (max-width:540px){
+  .section4_heading h2{
+    font-size: 21px;
+    font-weight: 400;
+  }
 }

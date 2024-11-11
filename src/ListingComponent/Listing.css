@@ -1,6 +1,10 @@
+.listing_container{
+    width: 100%;
+    height: 100%;
+}
 .intro{
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 .intro h2{
     font-family: Chonburi;
@@ -35,8 +39,9 @@
     font-size: 1.5rem;
 }
 .listing{
-    margin-inline: 2rem;
-    /* padding: 1rem; */
+    width: 90%;
+    margin-inline: auto;
+    margin-top: 4rem;
 }
 .listing h2{
    font-family: Chonburi;
@@ -48,14 +53,15 @@
     grid-template-columns: repeat(3,1fr);
     /* grid-template-columns: repeat(auto-fit, minmax(350px, auto)); */
     gap: 20px;
+    margin: 3rem 0;
 }
 .listing_box{
-    width: 100%;
+    /* width: 22rem; */
     height: 24rem;
     display: grid;
     border-radius: 10px;
-    grid-template-rows: 65% 35%;
-    gap: 10px;
+    grid-template-rows: 70% 30%;
+    /* gap: 10px; */
     box-shadow: 0px 0px 31px 0px #00000014;
 }
 .list-img{
@@ -64,51 +70,53 @@
 }
 .list-img img{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
 }
 .listing_subheading{
     text-align: start;
     padding: 0 .5rem;
-   margin-top: .5rem;
+    font-family: Mulish;
    position: relative;
 }
 .vlogo{
+    width: 48px;
+    height: 48px;
     position: absolute;
     top:-130% ;
     left: 45%;
     cursor: pointer;
 }
 .listing_subheading h4{
-    font-family: Mulish;
     font-weight: 700; 
-    font-size: 1rem;  
-    padding-top: 1rem;
+    font-size: 15px;  
+    line-height: 24px;
+}
+.listing_subheading p{
+    font-size: 11.87px;
+    font-weight: 500;
+    line-height: 14.9px;
+    color: #878787;
 }
 .list-details{
     display: flex;
     justify-content: space-between;
-    padding-top: -.8rem;
+    padding-top: 1.5rem;
+}
+.list-details img{
+    width: 25px;
+    height: 13px;
+}
+.list-details p{
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px; 
 }
 .list-details a{
     color: #FF7900;
-    padding-right: 1rem;
 }
 .list-details a:hover{
-    color: #009688;
-}
-.vector{
-    width: 25px;
-    height: 13px;
-    margin-top: .5rem;
-}
-.details{
-    display: flex;
-    justify-content: space-between; 
-}
-.details a{
-    color: #FF7900;
-    padding-left: 8rem;
-    padding-top: .5rem;
-}
-.details a:hover{
     color: #009688;
 }

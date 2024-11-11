@@ -1,5 +1,95 @@
-.main-login{
-    width: 20%;
+.main-login {
+    width: 50%;
     height: 100vh;
-    background-color: aquamarine;
+    background-color: white;
+    border-top-left-radius: 30px;
+    /* border-bottom-left-radius: 30px; */
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.welcome-back-div {
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(233, 234, 183); */
+}
+
+.image-logos {
+    width: 30%;
+    height: 4vh;
+    margin-left: 10rem;
+    /* background-color: rgb(233, 234, 183); */
+}
+
+/* .image-logos img {
+    width: 100%;
+    height: 100%;
+} */
+
+.welcome-back-div h1 {
+    font-family: "Chonburi", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(52, 52, 52);
+    margin-top: 2.5rem;
+}
+
+.welcome-back-div p {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #929292;
+    padding-top: 1rem;
+    line-height: 24px;
+    text-align: center;
+}
+
+.main-welcome-div samp {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #929292;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.main-welcome-div .link {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FF7900;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.main-welcome-div .link:hover {
+    color: #ff3700;
+}
+
+.landLord-Buyer-div {
+    width: 92%;
+    height: 26%;
+    margin-top: 2.6rem;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: antiquewhite; */
+}
+.BTN {
+    width: 92%;
+    height: 7%;
+    margin-top: 1.8rem;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    background-color: #009688;
+}
+.BTN:hover {
+   transition: all 350ms ease-in-out;
+    background-color: #009687de;
 }

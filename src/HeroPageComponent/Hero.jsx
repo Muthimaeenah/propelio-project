@@ -15,7 +15,6 @@ const Hero = () => {
                             build wealth through accessible and innovative real estate solutions.
                         </p>
                         <div className="hero_subheading">
-                            <BsSearch className='searchIcon'/>
                             <input type="search" name="listing" id="listing"
                                 placeholder="Enter your email here... " />
                             <button type="button" className="search">Join our waitlist</button>

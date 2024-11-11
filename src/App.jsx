@@ -63,7 +63,7 @@ const router = createHashRouter([
     children: [
       {
         path: "/welcomeToPropelio",
-        element: <WelcomeOnboard />,
+        element: <WelcomeOnboard/>,
       },
       {
         path: "/login",

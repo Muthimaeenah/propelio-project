@@ -8,13 +8,13 @@ import chooseimg4 from '../assets/frame 22.png'
 const Choose = () => {
     return (
         <div>
-            <section class="section_6">
-                <div class="section4_heading">
+            <section className="section_6">
+                <div className="section4_heading">
                     <h2>Why Choose Propelio</h2>
                     <p>We make property ownership accessible, inclusive, and empowering for all.</p>
                 </div>
-                <div class="section6_box">
-                    <div class="flexible">
+                <div className="section6_box">
+                    <div className="flexible">
                         <img src={chooseimg1} alt="section6_img" />
                         <h2>Flexible Financial Options</h2>
                         <p>Propelio provides a range of flexible financing solutions,
@@ -22,7 +22,7 @@ const Choose = () => {
                         </p>
                     </div>
 
-                    <div class="flexible">
+                    <div className="flexible">
                         <img src={chooseimg2} alt="section6_img" />
                         <h2>Diverse Property Options</h2>
                         <p>From urban condos to suburban villas and rural retreats,
@@ -30,7 +30,7 @@ const Choose = () => {
                         </p>
                     </div>
 
-                    <div class="flexible">
+                    <div className="flexible">
                         <img src={chooseimg3} alt="section6_img" />
                         <h2>AI Recommendations</h2>
                         <p>Our AI-powered recommendation engine analyses user preferences, budget constraints,
@@ -38,7 +38,7 @@ const Choose = () => {
                         </p>
                     </div>
 
-                    <div class="flexible">
+                    <div className="flexible">
                         <img src={chooseimg4} alt="section6_img" />
                         <h2>Transparent Transactions</h2>
                         <p>By leveraging blockchain tech, Propelio ensures

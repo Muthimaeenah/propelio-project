@@ -1,0 +1,92 @@
+.wallet_body{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    padding: 24px 40px 20px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.wallet_top_card_container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* background-color: yellow; */
+}
+
+.wallet_top_card{
+    width: calc(25% - 20px);
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    align-items: center;
+}
+
+.wallet_top_card_icon_container{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.TE{
+    background-color: #D8FBF8;
+    color: #009688;
+}
+
+.PE{
+    background-color: #FFDDBE;
+    color: #FF7900;
+}
+
+.TS{
+    background-color: #D8FBF8;
+    color: #009688;
+}
+
+.PS{
+    background-color: #FFDDBE;
+    color: #FF7900;
+}
+
+.wallet_top_card_text_container{
+    width: calc(100% - 70px);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.wallet_top_card_text_container p{
+    color: #808080;
+    font-family: "Mulish", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+    text-align: left;
+}
+
+.wallet_top_card_text_container h3{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #484848;
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.wallet_balance_container{
+    width: 50%;
+    height: 60px;
+    background: linear-gradient(to right, #006B61,#00D1BE);
+    border-radius: 8px;
+}

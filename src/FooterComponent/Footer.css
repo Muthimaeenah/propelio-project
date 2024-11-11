@@ -1,10 +1,13 @@
 footer {
-    height: 35vh;
+    height: 100%;
     width: 100%;
     background-color: #000000;
     padding: 2rem 6rem;
 }
-
+.footer1 img{
+    width: 203px;
+    height: 100px;
+}
 .footer-img {
     margin: .5rem 35% ;
 }

@@ -14,7 +14,7 @@ import listingvuesaxlogo from '../assets/Vuesax.png'
 
 const Listing = () => {
   return (
-    <div>
+    <div className='listing_container'>
       <section className="intro">
         <h2>Properties for sale</h2>
         <div className="intro-box">

@@ -56,7 +56,7 @@ const ProductSlider = () => {
         // modules={[Autoplay]}  // Import Swiper modules
        breakpoints={{
           420: {slidesPerView: 1, spaceBetween: 5}, //Mobile
-          640: { slidesPerView: 2, spaceBetween: 10 }, // Mobile
+          540: { slidesPerView: 2, spaceBetween: 5 }, // Mobile
           768: { slidesPerView: 3, spaceBetween: 15 }, // Tablet
           1024: { slidesPerView: 3.5, spaceBetween: 30 } // Desktop
         }}
@@ -70,11 +70,11 @@ const ProductSlider = () => {
             <div  className="project_subheading">
              <div><img src={slidervicon} alt="logo" className="video-logo"/></div>
              <h4 className="product-name">{product.title}</h4>
-             <p className="location"> <BsGeoAlt />{product.location}</p>
-             <div className="details">
+             <p className="product_location"> <BsGeoAlt />{product.location}</p>
+             <div className="product_details">
                 <img src={vector} alt="vector" class="vector" />
                 <p>{product.km}</p>
-                <Link onClick={handleToggle}>Details</Link>
+                <Link onClick={handleToggle} className='detailslink'>Details</Link>
                 {showModal && <Modal onClose ={onClose}  body = {<div>customised content</div>} />}
                 
               </div>

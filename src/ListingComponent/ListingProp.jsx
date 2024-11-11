@@ -10,7 +10,7 @@ const ListingProp = ({image, vlogo, title, location, logo, desc }) => {
                 <img src={image} alt="image" />
             </div>
                 <div className="listing_subheading">
-                    <img src={vlogo} alt="video-logo" className='vlogo' />
+                    <img src={vlogo} alt="video-logo" className='vlogo'/>
                     <h4>{title} </h4>
                     <p className="location"> <BsGeoAlt /> {location}</p>
                     <div className="list-details">

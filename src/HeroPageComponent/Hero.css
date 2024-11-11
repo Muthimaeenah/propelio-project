@@ -1,7 +1,7 @@
 .section_1{
     width: 100% !important; 
     height: 604px;
-    background-image: url("/public/hero.png");
+    background-image: url("/hero.png");
     background-position: center;
     background-size: cover; 
 }
@@ -15,7 +15,8 @@
     opacity: 75%;
 }
 .hero{
-    width: 50rem;
+    width: 80%;
+    margin: 0 auto;
     text-align: center;
 }
 .hero_section_title{
@@ -28,6 +29,8 @@
     color:#FF7900 ;
 }
 .empower{
+    width: 60%;
+    margin: 0 auto;
     padding-top: 1rem;
     font-family: Mulish;
     font-weight: 600;
@@ -36,59 +39,67 @@
 }
 .hero_subheading{
     display: grid;
-    grid-template-columns:10% 50% 40%;
+    grid-template-columns:60% 40%;
     width: 80%;
+    height: 25%;
     opacity: 80%;
     padding: 1rem 1.5rem;
-    margin: 1.5rem 4rem;
+    margin: 1.5rem auto;
     border-radius: 15rem;
     background-color: #09887b;
 }
 .hero_subheading input{
     width: 100%;
+    color: white;
+    font-size: 1.5rem;
     border: none;
+    outline: none;
     background-color: transparent;
 }
 .hero_subheading input::placeholder{
     color: white;
     font-size: 1.5rem;
 }
-.searchIcon{
-    margin-bottom: .1rem;
-    padding-right: .8rem;
-    font-size: 2rem;
-}
 .search{
     background-color: #FF7900;
-    width: 70%;
+    width: 60%;
     padding:.5rem 1.5rem;
     border-radius: 1.5rem;
-    margin-left: 4rem;
-    margin-top: -.5rem;
+    margin-left: 5rem;
     color: white;
     border: none;
     cursor: pointer;
 }
 .search:hover{
     background-color: #ce7e38;
-    font-weight: bold;
-    width: 80%;
 }
-@media (max-width: 425px){
+@media (max-width:540px){
     .section_1{
-        width: 100% !important;
-        height: 550px; 
+        height: 500px; 
     }
     .hero{
-        width: 100%;
+        width: 80%;
     }
     .hero_section_title{
-        font-size: 2.3rem;
+        font-size: 31.21px;
     }
     .empower{
         width: 100%;
         padding-inline: 1rem;
         font-size: 14px;
         padding-top: 2rem;
-    }   
+    } 
+    .hero_subheading{
+        width: 90%;
+        height: 15%;
+        padding: 8px 13px;
+    }  
+    .hero_subheading input, .hero_subheading input::placeholder{
+        font-size: 10px;
+    }
+    .search{
+        width: 100%;
+        padding: 3px 5px;
+        margin: 0;
+    }
 }

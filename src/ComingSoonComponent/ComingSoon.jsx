@@ -5,11 +5,11 @@ import Footer from '../FooterComponent/Footer'
 const ComingSoon = () => {
   return (
     <div>
-        <section class="section1">
-      <div class="semicircle1"></div>
-      <div class="semicircle2"></div>
-      <div class="section1-writeup">
-        <div class="section1-intro">
+        <section className="section1">
+      <div className="semicircle1"></div>
+      <div className="semicircle2"></div>
+      <div className="section1-writeup">
+        <div className="section1-intro">
             <h2>Coming Soon...</h2>
             <p>Sorry, this feature is still in the works. We are trying our possible best <br/>
                to make it available as soon as possible. Kindly join our waitlist to be the first to know when it goes live.

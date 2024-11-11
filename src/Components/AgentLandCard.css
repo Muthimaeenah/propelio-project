@@ -1,0 +1,57 @@
+.box-card-main {
+    width: 48%;
+    height: 13rem;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #F7F7F9;
+    padding: 18px;
+    position: relative;
+}
+
+.box-card-main:hover {
+    background-color: #ffeedf;
+    transition: all 350ms ease-in-out;
+}
+
+.small-circless {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    /* object-fit: contain; */
+}
+
+img {
+    width: 100%;
+    height: 85%;
+    background-size: 100%;
+    object-fit: contain;
+}
+
+.box-card-main h3 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #262626;
+    padding-top: 15px;
+}
+
+.box-card-main p {
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 12.3px;
+    color: #262626;
+    padding-top: 12px;
+    text-align: left;
+    line-height: 20px;
+}
+.radio {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    accent-color: #009688 ;
+}

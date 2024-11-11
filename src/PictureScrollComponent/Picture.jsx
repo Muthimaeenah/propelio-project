@@ -28,7 +28,7 @@ const Picture = () => {
     return (
         <section className="section_2">
            <div className="carousel">
-               <img src={images[currentIndex]} alt={`carousel-${currentIndex}`} className="carousel-image" />
+              <img src={images[currentIndex]} alt={`carousel-${currentIndex}`} className="carousel-image" />
             </div>
         </section>
     )
