@@ -19,7 +19,7 @@ const Footer = () => {
                 <hr className="footer-hr" />
                 <div className="footer2">
                     <p>&copy; 2024 Propelio_ng. All rights reserved</p>
-                    <div className="footer-icon">
+                    <div className="footer-icon1">
                         <Link to='https://www.instagram.com/propelio_ng?igsh=bHl2cWhtcHBrczJ2'><BsInstagram className='footer-icon'/></Link>
                         <Link to='https://www.facebook.com/profile.php?id=61564181971030&mibextid=LQQJ4d'><BsFacebook className='footer-icon' /></Link>
                         <Link to='https://x.com/Propelio_NG'><BsTwitter className='footer-icon' /></Link>

@@ -14,5 +14,7 @@
     object-fit: cover;
 }
 @media (max-width:540px){
-    
+    .section_2{
+        height: 100%;
+    }
 }
