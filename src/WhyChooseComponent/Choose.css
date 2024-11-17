@@ -37,6 +37,7 @@
         width: 80%;
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        padding: 2rem 0;
     }   
     .flexible{
         padding-top: 2rem;
@@ -47,6 +48,6 @@
         padding-bottom: 1rem;
     }
     .flexible-title h2{
-        margin-right:5rem ;
+        margin-right:2rem ;
     }
 }

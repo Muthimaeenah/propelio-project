@@ -10,6 +10,7 @@ const Header = () => {
 
     let toggleMenu = () => {
         setIsOpen(!isOpen);
+        console.log("clicked")
     }
 
     return (
@@ -25,8 +26,8 @@ const Header = () => {
                     <div className="navbar-toggle" onClick={toggleMenu}>
                      <BsList /> 
                     </div>
-                    <div className={`nav_menu ${isOpen ? 'active' : " "}`}>
-                        <ul className='nav_list'>
+                    <div className={isOpen ? "nav_menu-mobile" : "nav_menu"}>
+                    <ul className='nav_list'>
                         <li className="dropdown">
                             <Link to="" className="nav_link  dropbtn ">Listings<BsChevronDown className='listingIcon' /></Link>
                             <div className="dropdown-content">
