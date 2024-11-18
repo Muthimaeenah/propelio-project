@@ -10,7 +10,7 @@ const OurServive = () => {
     return (
         <div>
             <section className="section_5" id="section_5">
-                <div className="section4_heading">
+                <div className="section5_heading">
                     <h2>Our Services</h2>
                     <p>Propelio offers varieties of services tailored just for you.</p>
                 </div>

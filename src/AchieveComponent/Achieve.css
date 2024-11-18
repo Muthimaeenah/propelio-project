@@ -84,14 +84,14 @@
     }
     .section_3B{
         width: 90%;
-        height: 380px;
+        height: 100%;
         margin-bottom: 2rem;
     }
     .section_3B hr{
         height: 8rem;
         position: absolute;
         top: -23.8%;
-        left: 78%;  
+        left: 75%;  
     }
     .section_3A h2{
         font-size: 25px;

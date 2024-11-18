@@ -56,7 +56,7 @@ const ProductSlider = () => {
         // modules={[Autoplay]}  // Import Swiper modules
        breakpoints={{
           420: {slidesPerView: 1, spaceBetween: 5}, //Mobile
-          540: { slidesPerView: 2, spaceBetween: 5 }, // Mobile
+          540: { slidesPerView: 2, spaceBetween: 10 }, // Mobile
           768: { slidesPerView: 3, spaceBetween: 15 }, // Tablet
           1024: { slidesPerView: 3.5, spaceBetween: 30 } // Desktop
         }}

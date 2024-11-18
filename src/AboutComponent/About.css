@@ -1,4 +1,3 @@
-
 .section1{
     background-color: #006B61;
     width: 100%;
@@ -27,16 +26,18 @@
     opacity: 5%;  
 }
 .Abt-box{
+    /* width: 95%; */
     display: grid;
     grid-template-columns: repeat(2,50%);
     padding: 1rem 3rem;
-    gap: 3rem; 
+    gap: 20px; 
 }
 .Abt-intro{
     color: white;
     height: 370px;
-    padding: 0 2rem;
+    padding: 0 auto;
     text-align: start;
+    position: relative;
 }
 .Abt-intro h2{
     font-family: Chonburi;
@@ -52,11 +53,12 @@
 }
 .Abt-img{
     height: 370px;
-    max-width: 500px;
+    max-width: 85%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3,1fr);  
     gap: 1rem; 
+    place-content: center;
 }
 .Abt-img img{
     width: 100%;
@@ -110,13 +112,13 @@
 }
 .section2{
     width: 100%;
-    height: 700px;
+    height: 100%;
     background-color: white;
     position: relative;
 }
 .section2-sub{
     width: 70%;
-    height: 200px;
+    height: 30%;
     padding: 2rem;
     background-color: white;
     text-align: center;
@@ -144,9 +146,10 @@
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
     padding-top: 15rem;
+    padding-bottom: 6rem;
     padding-left: 3rem;
     margin-inline: 2rem;
-    height: 700px;
+    height: 100%;
 }
 .box1, .box2, .box3{
     height: 22rem;
@@ -232,21 +235,23 @@
 }
 .section3{
     width: 100%;
-    height: 500px;
+    height: 100%;
     display: grid;
     text-align: center;
-    padding: 8rem;
+    padding: 8rem auto;
 }
 .section3-heading h2{
     font-family: Chonburi;
     font-size: 2.5rem;
     font-weight: 400;
     color: #009688;
+    padding-top: 4rem;
 }
 .section3-heading p{
     font-family: Mulish;
     font-size: 1.5rem;
     font-weight: 500;
+    padding-top: 1rem;
     padding-bottom: 4rem;
 }
 textarea{
@@ -268,4 +273,77 @@ textarea{
 }
 .sendbtn:hover{
     background-color: #FF7900;
+}
+@media (max-width:540px){
+    .section1{
+        height: 100%;
+    }
+    .Abt-box{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 80%;
+        margin:3rem auto;
+    }
+    .Abt-intro{
+        text-align: center;
+    }
+    .Abt-intro h2{
+        position: absolute;
+        top: -125%;
+        left: 35%;
+    }
+    .Abt-intro p{
+        font-size: 13px;
+    }
+    .section2-sub{
+        border-radius: 36px;
+        height: 14%;
+        margin-top: 8rem ;
+    }
+    .section2-sub p{
+        font-size: 13px;
+    }
+    .section2-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .box1{
+        height: 80%;
+        width: 90%;
+        margin-top: 3rem;
+        position: relative; 
+    }
+    .box2, .box3{
+        height: 80%;
+        width: 90%;
+        margin-top: 15rem;
+        position: relative;
+    }
+    .img-container{
+        position: absolute;
+        top: -25%;
+        left: 30%;
+    }
+    .img-hr{
+        transform: rotate(90deg);
+        position: absolute;
+        top: 380%;
+        left:-15%;
+        width: 13rem;
+    }
+    .hr-circle{
+        position: absolute;
+        left: 52%;
+        top: 470px;
+    }
+    .section3-heading h2{
+        font-size: 21px;
+    }
+    .section3-heading p{
+        font-size: 13px;
+    }
+    textarea{
+        height: 295px;
+        margin-bottom: 2rem;
+    }
 }

@@ -14,5 +14,10 @@
     object-fit: cover;
 }
 @media (max-width:540px){
-    
+    .section_2{
+        height: 100%;
+    }
+    .carousel-image{
+        height: 100% !important;
+    }
 }
