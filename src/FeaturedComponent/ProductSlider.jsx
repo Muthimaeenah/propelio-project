@@ -49,7 +49,7 @@ const ProductSlider = () => {
 
       <Swiper
         className='productBox'
-        slidesPerView={3}        // Show 3 slides per view
+        slidesPerView={2}        // Show 2 slides per view
         spaceBetween={20}        // Space between slides
         loop={true}              // Enable looping
         // autoplay={{ delay: 3000 }}  // Autoplay with delay
@@ -69,8 +69,8 @@ const ProductSlider = () => {
             </div>
             <div  className="project_subheading">
              <div><img src={slidervicon} alt="logo" className="video-logo"/></div>
-             <h4 className="product-name">{product.title}</h4>
-             <p className="product_location"> <BsGeoAlt />{product.location}</p>
+               <h4 className="product-name">{product.title}</h4>
+               <p className="product_location"> <BsGeoAlt />{product.location}</p>
              <div className="product_details">
                 <img src={vector} alt="vector" class="vector" />
                 <p>{product.km}</p>

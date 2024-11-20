@@ -78,12 +78,12 @@
         margin: 1.5rem auto;
     }
     .accordion-header {
-        font-size: 7.29px;
+        font-size: 18px;
     }
     .accordion-content h4{
-        font-size: 7.29px;
+        font-size: 18px;
     } 
     .accordion-content p {
-        font-size: 6.08px;
+        font-size: 1rem;
     }
 }

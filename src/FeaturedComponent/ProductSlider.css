@@ -126,6 +126,9 @@
     font-size: 21px;
     font-weight: 400;
   }
+  .productBox{
+    grid-template-columns: repeat(2,1fr); 
+  }
   .Project{
     width: 15rem;
     height: 15rem;

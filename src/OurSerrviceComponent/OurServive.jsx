@@ -32,18 +32,22 @@ const OurServive = () => {
                     <div className="section5_box2">
                         <div className="eclipse2"></div>
                         <div className="section_5AB">
-                            <img src={property} alt="section5-logo"/>
-                            <h2> Property Listings</h2>
-                            <p><Link to="/comingsoon">Read more...</Link></p>
+                            <div className='property'>
+                                <img src={property} alt="section5-logo"/>
+                                <h2> Property Listings</h2>
+                            </div>
+                            <p className='read'><Link to="/comingsoon">Read more...</Link></p>
                         </div>
                     </div>
 
                     <div class="section5_box3">
                         <div class="eclipse3"></div>
                         <div class="section_5AB">
-                            <img src={mockup} alt="section5-logo" />
-                            <h2>Property Mockup</h2>
-                            <p><Link to="/comingsoon">Read more...</Link></p>
+                            <div className='property'>
+                             <img src={mockup} alt="section5-logo" />
+                             <h2>Property Mockup</h2>
+                            </div>
+                            <p className='read'><Link to="/comingsoon">Read more...</Link></p>
                         </div>
                     </div>
                 </div>
