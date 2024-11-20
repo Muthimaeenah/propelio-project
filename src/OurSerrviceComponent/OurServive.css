@@ -17,7 +17,7 @@
     font-family: Mulish;
     font-weight: 600;
     line-height: 9.16px;
-        
+    padding-bottom: 2rem;    
 }
 .section_5_box{
     width: 90%;
@@ -25,7 +25,7 @@
     display: grid;
     grid-template-columns: 50% 25% 25%;
     gap: 18px;
-    margin-inline: 1rem;
+    margin:2rem 1rem;
 }
 .section5_box1{
     background-color: #009688;
