@@ -1,9 +1,12 @@
+/* General Reset */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-header{
+
+/* Header */
+header {
     width: 100%; 
     height: 75px;
     background-color: black;
@@ -12,55 +15,69 @@ header{
     bottom: 0;
     z-index: 999;
 }
+
+/* Navigation Content */
 .nav_content {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-inline: 5rem;
-    position: relative;
 }
+
+/* Logo */
 .nav_logo {
     cursor: pointer;
 }
-.nav_logo img{
+
+.nav_logo img {
     width: 125px;
     height: 28px;
 }
-.nav_menu{
+
+/* Main Navigation Menu */
+.nav_menu {
     width: 70%;
     display: flex;
     justify-content: space-between;
-    padding-bottom: .8rem;
+    padding-bottom: 0.8rem;
     font-size: 16px;
     font-weight: 700;
     font-family: Mulish, sans-serif;
 }
+
+/* Dropdown */
 .dropdown {
     position: relative;
 } 
+
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #009688;
     min-width: 8rem;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
     margin-left: -1rem;
     box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
     z-index: 1;
 }
+
 .dropdown-content a {
     color: white;
     padding: .8rem 1rem;
     text-decoration: none;
     display: block;
 }
+
 .dropdown-content a:hover {
     background-color: #FF7900;
 }
+
 .dropdown:hover .dropdown-content {
     display: block;
-} 
+}
+
+/* Navigation List */
 .nav_list {
     width: 60%;
     height: 100%;
@@ -70,20 +87,25 @@ header{
     font-size: 14px;
     font-family: Mulish, sans-serif;
 }
+
 .nav_list li {
     width: 100%;
     list-style: none;
 }
+
+/* Links */
 .active {
     width: 100%;
     color: rgb(0, 150, 136, 1);
     text-decoration: none;
 }
+
 .notActive {
     width: 100%;
     color: white;
     text-decoration: none;
 }
+
 .nav_link {
     text-decoration: none;
     color: white;
@@ -91,6 +113,7 @@ header{
     padding: 0 1rem;
     margin-right: 1rem;
 }
+
 .nav_link:hover, .notActive:hover {
     font-weight: bolder;
     color: #13afb4;
@@ -100,135 +123,94 @@ header{
     padding-top: .5rem;
     font-size: 1.3rem;
 }
+
+/* Get Started Button */
 .get{
     background-color: rgb(0, 150, 136, 1);
     border: 2px solid #0a898d;
     position: absolute;
     right: 2%;
     top: 18%;
-    padding: .5rem 1rem;
+    /* margin-top: 0rem; */
+    padding: 0.5rem 1rem;
     border-radius: 25px;
     cursor: pointer;
     text-decoration: none;
     color: white;
 }
+
 .get:hover{
     background-color: #FF7900;
     border: 2px solid #FF7900;
     font-weight: bold;
 }
+
+/* Mobile Navigation */
 .navbar-toggle{
     display: none; 
     color: white;
     font-size: 1.5rem;
     cursor: pointer;
 }
-/* Responsive Design */
+
+/* Mobile Responsiveness */
 @media (max-width: 768px) {
-    header {
-        height: 65px;
-    }
-
-    .nav_logo img {
-        width: 100px;
-        height: auto;
-    }
-
-    /* Ensure nav menu is hidden by default */
     .nav_menu {
         display: none;
         flex-direction: column;
+        align-items: flex-start;
+        background-color: black;
+        padding: 1rem;
+        gap: 1rem;
         position: absolute;
-        top: 100%;
+        top: 75px;
         left: 0;
         width: 100%;
-        background-color: black;
-        padding: 1rem 0;
-        z-index: 1000;
-        border-top: 1px solid rgba(255, 255, 255, 0.1);
     }
 
-    /* Show nav menu when active */
     .nav_menu.active {
         display: flex;
     }
 
-    /* Style nav items for smaller screens */
+    .navbar-toggle {
+        display: block;
+    }
+
     .nav_list {
         flex-direction: column;
-        align-items: flex-start;
-        padding: 0;
-        margin: 0;
+        gap: 1rem;
         width: 100%;
     }
 
-    .nav_list li {
-        width: 100%;
-        padding: 0.5rem 1.5rem;
-        text-align: left;
-    }
-
-    .nav_link {
-        display: block;
-        width: 100%;
-        text-align: left;
-        padding: 0.5rem 0;
-    }
-
-    /* Adjust dropdown positioning */
     .dropdown-content {
-        position: static;
-        margin: 0;
+        position: relative;
         width: 100%;
+        margin-left: 0;
         box-shadow: none;
     }
 
     .dropdown:hover .dropdown-content {
         display: block;
-        background-color: black;
     }
 
-    .dropdown-content a {
-        padding: 0.5rem 1.5rem;
-    }
-
-    /* Navbar toggle button for mobile view */
-    .navbar-toggle {
-        display: block;
-        color: white;
-        font-size: 1.5rem;
-        cursor: pointer;
-    }
-
-    /* Adjust the Get Started button */
     .get {
-        position: static;
-        margin: 1rem auto;
-        display: block;
-        width: fit-content;
-        padding: 0.5rem 2rem;
+        margin-top: 1rem;
+        padding: 0.5rem 1.5rem;
     }
 }
 
-@media (max-width: 480px) {
-    header {
-        height: 55px;
+/* Desktop View */
+@media (min-width: 769px) {
+    .nav_menu {
+        display: flex;
     }
 
-    .nav_content {
-        padding-inline: 1rem;
-    }
-
-    .nav_link {
-        font-size: 0.9rem;
-    }
-
-    .listingIcon {
-        font-size: 1.2rem;
+    .nav_list {
+        flex-direction: row;
+        gap: 2rem;
     }
 
     .get {
-        font-size: 0.9rem;
-        padding: 0.4rem 1.5rem;
+        margin-left: 2rem;
     }
 }
