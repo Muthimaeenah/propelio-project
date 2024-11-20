@@ -130,7 +130,7 @@
     grid-template-columns: repeat(2,1fr); 
   }
   .Project{
-    width: 15rem;
+    width: 10.5rem;
     height: fit-content;
     overflow-x: hidden;
   }
