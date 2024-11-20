@@ -155,6 +155,9 @@ header {
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
+    .nav_content {
+        padding-inline: 2rem;
+    }
     .nav_menu {
         display: none;
         flex-direction: column;
