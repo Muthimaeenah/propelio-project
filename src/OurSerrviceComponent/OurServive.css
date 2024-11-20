@@ -202,15 +202,17 @@
         height: 15rem;
         width: 100%;
         padding-top: -2rem;
-        margin-top: 2rem;
+        margin-top: 1rem;
         overflow: hidden;
     }
     .section_5AB{
         padding-top: 0rem;
+        padding-right: 0rem;
     }
     .section_5AB h2{
         text-align: start;
         font-size: 21px;
+        line-height: 28.4px;
     }
     .property{
       display: flex;

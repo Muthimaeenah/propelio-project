@@ -131,7 +131,8 @@
   }
   .Project{
     width: 15rem;
-    height: 15rem;
+    height: fit-content;
+    overflow-x: hidden;
   }
   .project_subheading h4{
     font-size: 10px;
