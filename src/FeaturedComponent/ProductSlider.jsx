@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import "./ProductSlider.css";
 import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
-// import { Autoplay } from 'swiper/modules';
+import { Navigation} from 'swiper/modules';
 
 // Import Swiper styles
 import 'swiper/css';
+import 'swiper/css/navigation';
+import "./ProductSlider.css";
 
 // import other things
 import { BsGeoAlt } from "react-icons/bs";
@@ -21,11 +22,11 @@ import Modal from './Modal';
 //  product data
 let products = [
   { id: 1, title: "Beracah Gardens Ibadan", location: "Ido-Eruwa, Ibadan , Oyo state", image: sliderimg1, km:"500 Sq meter"},
-  { id: 2, title: "3 Bedroom Terrace Duplex + BQ ", location: "Ilaje, Ajah, Lagos state", image: sliderimg2, km:"500 Sq meter" },
-  { id: 3, title: "TWO BEDROOM APARTMENT", location: "Abraham Adesanya, Ogombo Road Ng.", image: sliderimg3,  km:"500 Sq meter" },
+  { id: 2, title: "3 Bedroom Terrace Duplex + BQ ", location: "Ilaje, Ajah, Lagos state", image: sliderimg2 },
+  { id: 3, title: "TWO BEDROOM APARTMENT", location: "Abraham Adesanya, Ogombo Road Ng.", image: sliderimg3},
   {id: 4, title: "Beracah Gardens Ibadan", location: "Ido-Eruwa, Ibadan , Oyo state", image: sliderimg1, km:"500 Sq meter"},
   { id: 2, title: "3 Bedroom Terrace Duplex + BQ ", location: "Ilaje, Ajah, Lagos state", image: sliderimg2, km:"500 Sq meter" },
-  { id: 6, title: "TWO BEDROOM APARTMENT", location: "Abraham Adesanya, Ogombo Road Ng.", image: sliderimg3,  km:"500 Sq meter" },
+  { id: 6, title: "TWO BEDROOM APARTMENT", location: "Abraham Adesanya, Ogombo Road Ng.", image: sliderimg3},
 ];
 
 
@@ -52,13 +53,14 @@ const ProductSlider = () => {
         slidesPerView={2}        // Show 2 slides per view
         spaceBetween={20}        // Space between slides
         loop={true}              // Enable looping
+        navigation={true}
         // autoplay={{ delay: 3000 }}  // Autoplay with delay
-        // modules={[Autoplay]}  // Import Swiper modules
+        modules={[Navigation]}  // Import Swiper modules
        breakpoints={{
           420: {slidesPerView: 1, spaceBetween: 5}, //Mobile
           540: { slidesPerView: 2, spaceBetween: 10 }, // Mobile
           768: { slidesPerView: 3, spaceBetween: 15 }, // Tablet
-          1024: { slidesPerView: 3.5, spaceBetween: 30 } // Desktop
+          1024: { slidesPerView: 3.5, spaceBetween: 20 } // Desktop
         }}
       >
       {products.map((product) => (

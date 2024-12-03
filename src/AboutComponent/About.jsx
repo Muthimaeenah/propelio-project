@@ -8,6 +8,7 @@ import abtlogo2 from '../assets/3.png'
 import abtlogo3 from '../assets/4.png'
 import { BsArrowRight } from "react-icons/bs";
 import Footer from '../FooterComponent/Footer'
+
 const About = () => {
   return (
     <div>
@@ -46,7 +47,7 @@ const About = () => {
         <div className="section2-sub">
           <h2>What we do</h2>
           <p>At Propelio, we empower individuals from all socio-economic backgrounds to achieve their
-            homeownership dreams through our inclusive platform that provides the tools and <br />knowledge needed to navigate the real estate market with confidence.
+            homeownership dreams through our inclusive platform that provides the tools and knowledge needed to navigate the real estate market with confidence.
           </p>
         </div>
         <div className="section2-main">

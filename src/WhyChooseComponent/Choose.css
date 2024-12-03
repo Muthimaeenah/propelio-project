@@ -13,7 +13,7 @@
     gap: 10px;
     padding: 4rem 1rem;
     margin-top: -2rem;
-    margin-inline: 2rem;
+    margin-inline: auto;
 }
 .flexible{
   text-align: start;

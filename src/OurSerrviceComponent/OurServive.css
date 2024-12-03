@@ -15,9 +15,9 @@
 }
 .section5_heading p{
     font-family: Mulish;
+    font-size: 22px;
     font-weight: 600;
-    line-height: 9.16px;
-    padding-bottom: 2rem;    
+    line-height: 32px;
 }
 .section_5_box{
     width: 90%;
@@ -25,13 +25,13 @@
     display: grid;
     grid-template-columns: 50% 25% 25%;
     gap: 18px;
-    margin:2rem 1rem;
+    margin:2rem auto;
 }
 .section5_box1{
     background-color: #009688;
     border-radius: 1.8rem;
-    height: 30rem;
-    width: 90%;
+    height: 580px;
+    width: 100%;
     position: relative;
     text-align: start;
     padding: 1.5rem ;  
@@ -43,8 +43,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     transform: rotate(270deg);
-    height: 30rem;
-    width: 30rem;
+    height: 600px;
+    width: 600px;
     border-radius: 500px 500px 32px 32px;
     opacity: 10%; 
 }
@@ -58,21 +58,20 @@
     z-index: 999;
 }
 .section5-title{
+    padding:2rem 0 ;
     color: white;
-    font-size: 2.5rem;
     font-family: "Chonburi", serif;
-    font-weight: 600;
-    font-style: normal;
-    line-height: 45px;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 52.8px;
 }
 .section_5A p{
-    padding: 1rem 1.5rem;
-    color: white;
     font-family: Mulish;
     font-size: 20px;
-    font-weight: 400; 
-   /*  line-height: 32px; */
-    
+    font-weight: 600;
+    line-height: 32px;
+    padding:1.5rem;
+    color: white;
 }
 .now5{
     padding: .8rem 1.5rem;
@@ -90,9 +89,13 @@
     color: #009688;
     text-decoration: none;
 }
+.now5 a:hover{
+    color: white;
+}
 .section_5AB{
-    padding-top: 3rem;
+    padding-top: 6rem;
     padding-right: 1.5rem;
+    color:  #333333;
 }
 .section_5AB h2{
     font-family: Chonburi;
@@ -100,24 +103,23 @@
     font-weight: 400;
     line-height: 38.4px;
     text-align: center;
-    
+    padding-bottom: 1rem;
 }
 .section_5AB a{
     color:  #333333;
     font-size: 1.2rem;
 }
 .section_5AB a:hover{
-    color: #333333;
     font-weight: bold;
     font-size: 1.5rem;
 }
 .section5_box2, .section5_box3{
     border-radius: 1.8rem;
-    height: 30rem;
+    height: 580px;
     width: 100%;
     position: relative; 
     padding: 3rem 2rem;
-    overflow-x: hidden; 
+    overflow: hidden; 
 }
 .section5_box2{
     background-color: #D8FBF8;
@@ -129,29 +131,22 @@
 .section5_box3{
     background-color: #FFDDBE;
 }
-.eclipse2{
-    background: #009688;
+.eclipse2, .eclipse3{
     position: absolute;
-    top: 0%;
+    top: -3%;
     left: 40%;
     transform: translate(-50%, -50%);
     transform: rotate(270deg);
-    height: 30rem;
-    width: 30rem;
+    height: 600px;
+    width: 600px;
     border-radius: 500px 500px 20px 20px;
     opacity: 5%;  
 }
+.eclipse2{
+    background: #009688;
+}
 .eclipse3{
     background: #BE5A00;
-    position: absolute;
-    top: 0%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    transform: rotate(270deg);
-    height: 30rem;
-    width: 30rem;
-    border-radius: 500px 500px 20px 20px;
-   opacity: 5%;  
 }
 @media (max-width:540px){
 
@@ -160,6 +155,7 @@
     }
     .section5_heading p{
         font-size: 12px;
+        font-weight: 600;
     }
     .section_5_box{
         display: flex;
@@ -169,14 +165,17 @@
         overflow-x: hidden;
     }
     .section5_box1{
-        height: 38%;
+        height: 50%;
         width: 100%;
         padding: 1rem 0 ; 
         margin-top: 2rem;
         position: relative; 
     }
-    .eclipse1, .eclipse2, .eclipse3{
-        height: 20rem;
+    .eclipse1{
+        height: 100%;
+    }
+    .eclipse2, .eclipse3{
+        height: 30rem;
     }
     .now5{
         display: grid;

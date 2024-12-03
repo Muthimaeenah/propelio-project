@@ -11,7 +11,7 @@ const Investmentprop = ({image, title, roi, no, amount, units, avail, soldout })
       <div className="investment_subheading">
          <div className="investment-details">
          <div>
-            <h4>{title}</h4>
+            <h4 className='investment-h4'>{title}</h4>
             <p className="investment_location">{roi}</p>
          </div>
          <p>{no}</p>

@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Footer.css"
 import propeliologo from '../assets/logo.png'
+// import propeliologo from '../assets/logo.png'
 import { Link } from 'react-router-dom'
 import { BsInstagram,  BsFacebook, BsTwitter, BsLinkedin } from "react-icons/bs";
     

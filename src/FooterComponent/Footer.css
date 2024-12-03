@@ -12,6 +12,7 @@ footer {
     width: 203px;
     height: 100px;
     margin: 2rem 35% ;
+    align-self: center;
 }
 .footer-content {
     display: flex;
@@ -56,6 +57,7 @@ footer {
     .footer1 img{
         width: 125px;
         height: 27px;
+        margin: 2rem 5rem ;
     }
     .footer-img {
         margin-bottom: 1rem ;
