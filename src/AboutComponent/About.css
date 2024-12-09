@@ -2,7 +2,6 @@
     background-color: #006B61;
     width: 100%;
     height: 650px;
-    margin: 0 auto;
     position: relative;
     overflow: hidden;
 }
@@ -30,12 +29,12 @@
     /* width: 95%; */
     display: grid;
     grid-template-columns: repeat(2,50%);
-    padding: 1rem 5rem;
+    padding: 1rem 3rem;
     gap: 20px; 
 }
 .Abt-intro{
     color: white;
-    height: 100%;
+    height: 370px;
     padding: 0 auto;
     text-align: start;
     position: relative;
@@ -50,7 +49,7 @@
     font-family: Mulish;
     font-size: 1.3rem;
     font-weight: 500;
-    line-height: 2rem;
+    line-height: 2.5rem;
 }
 .Abt-img{
     height: 370px;
@@ -138,11 +137,8 @@
 }
 .section2-sub p{
     font-family: Mulish;
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 500;
-    line-height: 32px;
-    text-align: center;    
-    color: #000000;
 }
 .section2-main{
     display: grid;
@@ -152,11 +148,11 @@
     padding-top: 15rem;
     padding-bottom: 6rem;
     padding-left: 3rem;
-    margin-inline: auto;
+    margin-inline: 2rem;
     height: 100%;
 }
 .box1, .box2, .box3{
-    height: 451px;
+    height: 22rem;
     width: 20rem;
     border-radius: 0px 0px 48px 48px;
     text-align: center;
@@ -179,15 +175,10 @@
     font-weight: 400;
     padding-bottom: 1.2rem;      
 }
-.box1 p, .box2 p, .box3 li{ 
+.box1 p, .box2 p, .box3 li{
     font-family: Mulish;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 32px;
-    text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-       
+    font-size: 1.2rem;
+    font-weight: 500;    
 }
 .img-container{
     width: 140px;
@@ -210,6 +201,8 @@
     border: 2px solid #FFFFFF;
    box-shadow:  0px 0px 0px 0px #00000040,
                 inset 0px 0px 23.4px 0px #0000000F;  
+   
+ 
 }
 .img-container img{
     object-position: center;
@@ -261,93 +254,77 @@
     padding-top: 1rem;
     padding-bottom: 4rem;
 }
-.form{
-    width: 90%;
-    margin: 0 auto;
+.section3 form{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    margin-bottom: 2rem;
+    gap: 2rem;
 }
-textarea{
-    resize: none;
-    width: 70% ;
-    padding: 1.2rem;
-    height: 10rem ;
+.section3 form .form-input{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.section3 form .form-input input{
+    padding: .8rem;
+    width: 30rem;
     border-radius: 16px;
     border: 1px solid #009688;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 500;
+    outline: none;
 }
-.sendbtn{
-    margin-top: 7rem;
-    margin-left: 2rem; 
+.section3 form textarea{
+    width: 60rem;
+    height: 10rem;
+    border-radius: 16px;
+    border: 1px solid #009688;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem;
+    outline: none;
+}
+.section3 form .sendbtn{
+    margin-top: 2rem;
     padding: .8rem 1.5rem;
     border-radius: 24px;
     border: none;
-    outline: none;
     color: white;
     background-color: #009688;
     cursor: pointer;
+    text-align: center;
+    outline: none;
 }
 .sendbtn:hover{
     background-color: #FF7900;
 }
 @media (max-width:540px){
     .section1{
-        height: 800px;
+        height: 100%;
     }
     .Abt-box{
         display: flex;
         flex-direction: column-reverse;
-        width: 95%;
-        margin-inline: auto;
-        margin-top: -11rem;
+        width: 80%;
+        margin:3rem auto;
     }
     .Abt-intro{
-        font-size: 13px;
-        font-weight: 500;
-        line-height: 20px;
         text-align: center;
     }
     .Abt-intro h2{
         position: absolute;
-        top: -140%;
-        left: 30%;
+        top: -125%;
+        left: 35%;
     }
     .Abt-intro p{
-        font-size: 1.1rem;
-        line-height: 1.8rem;
-    }
-    .frame1{
-        width: 238.79px;
-        height: 75.98px;
-    }
-    .frame2{
-        width: 113.32px;
-        height: 258.33px;
-    }
-    .frame3{
-        width: 113.32px;
-        height: 75.98px;
-    }
-    .frame4{
-        width: 113.32px;
-        height: 171.49px;
-    }
-    .frame5{
-        width: 113.32px;
-        height: 75.98px;
-    }
-    .Abt-img{
-        height: 80%;
-        gap: 10px; 
-        margin-inline: auto;
-        width: 95%;
+        font-size: 13px;
     }
     .section2-sub{
         border-radius: 36px;
-        height: 20%;
-        margin-top: 5rem ;
-        margin-bottom: 5rem;
+        height: 14%;
+        margin-top: 8rem ;
     }
     .section2-sub p{
         font-size: 13px;
@@ -355,10 +332,14 @@ textarea{
     .section2-main{
         display: flex;
         flex-direction: column;
-        width: 90%;
-        padding-left: 0rem;
     }
-    .box1, .box2, .box3{
+    .box1{
+        height: 80%;
+        width: 90%;
+        margin-top: 3rem;
+        position: relative; 
+    }
+    .box2, .box3{
         height: 80%;
         width: 90%;
         margin-top: 15rem;
@@ -372,20 +353,14 @@ textarea{
     .img-hr{
         transform: rotate(90deg);
         position: absolute;
-        top: 440%;
-        left:-28%;
-        width: 12rem;
-        height: 4px;
+        top: 380%;
+        left:-15%;
+        width: 13rem;
     }
     .hr-circle{
         position: absolute;
-        left: 38%;
-        top: 560px;
-        width: 20px;
-        height: 20px;
-    }
-    .box1 p, .box2 p, .box3 li{ 
-        font-size: 14.22px;
+        left: 52%;
+        top: 470px;
     }
     .section3-heading h2{
         font-size: 21px;
@@ -393,16 +368,47 @@ textarea{
     .section3-heading p{
         font-size: 13px;
     }
-    .form{
-        display: flex;
-        flex-direction: column;
-    }
     textarea{
         height: 295px;
         margin-bottom: 2rem;
     }
-    .sendbtn{
-        margin-top: 1rem;
-        margin: 0 auto;
+    .section3 form textarea{
+        padding: 1rem;
+    }
+}
+.success-message {
+    color: green; /* Change to your preferred color */
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .section3 form .form-input {
+        flex-direction: column; /* Stack inputs vertically on smaller screens */
+        align-items: stretch; /* Stretch inputs to full width */
+    }
+
+    .section3 form .form-input input,
+    .section3 form textarea {
+        width: 100%; /* Full width for inputs and textarea */
+    }
+
+    .section3 form .sendbtn {
+        width: 100%; /* Full width for the button */
+    }
+}
+
+@media (max-width: 480px) {
+    .section3-heading h2 {
+        font-size: 2rem; /* Smaller font size for headings */
+    }
+
+    .section3 .form textarea{
+        padding: 1rem;
+    }
+
+    .section3-heading p {
+        font-size: 1.2rem; /* Smaller font size for paragraph */
     }
 }
